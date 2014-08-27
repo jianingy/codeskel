@@ -1,0 +1,9 @@
+oslo.config
+pbr
+Flask
+{% if plugin.flask_sqlalchemy -%}
+Flask-SQLAlchemy
+{% endif -%}
+{% if plugin.flask_admin -%}
+Flask-Admin
+{% endif -%}
